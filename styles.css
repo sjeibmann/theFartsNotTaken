@@ -24,9 +24,22 @@ body{
     margin-right: 40px;
 }
 
+.formContainer{
+    /* clear: both; */
+    padding-top: 40px;
+    float: left;
+}
+
 .formField{
     float: left;
-    flex-flow: column;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    /* flex-flow: column; */
+}
+
+.labelStyle{
+    color: #9A9A9A;
 }
 
 .contentArea{
