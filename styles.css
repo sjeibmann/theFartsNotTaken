@@ -1,0 +1,52 @@
+body{
+    color: #fff;
+    font-family: Helvetica-Light, Verdana, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;   
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    clear: both;
+}
+
+.menu{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    background-color: #505050;
+}
+
+.menu-padding{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.formField{
+    float: left;
+    flex-flow: column;
+}
+
+.contentArea{
+    float: left;
+    /* display: block; */
+    width: 75%;
+    height: 100vh;
+    background-color: #343434;
+    overflow: scroll;
+}
+
+.contentArea-padding{
+    width: 600px;
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media only screen and (max-width: 768px) {};
+
+
+@media only screen and (max-width: 468px) {};

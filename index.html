@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Farts Not Taken</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div class="menu">
+            <div class="menu-padding" id="menu-Header">
+                <h1>The Farts Not Taken</h1>
+                <h3>An experiment is javascript find & replace</h3>
+                <span>What better way to celbrate the great american poet Robert Frost than by changing his iconic text. <br><br>
+                    Use the input fields below to find any word you want and replace it with a word of your choosing.</span>
+            </div>
+            <div class="menu-padding" id="menu-input-form">
+                <label for="find" class="labelStyle">Find</label>
+                <input type="text" name="find" id="findField" value="road" class="formField">
+                <label for="replace" class="labelStyle">Replace</label>
+                <input type="text" name="replace" id="replaceField" value="fart" class="formField">
+                <input type="button" value="GO!" onclick="formHandler()">
+            </div>
+        </div>
+        <div class="contentArea">
+            <div class="contentArea-padding" id="content">
+            <h1>The Road Not Taken</h1>
+            <h3>By Robert Frost</h3>
+            <p>Two roads diverged in a yellow wood,<br>
+                And sorry I could not travel both<br>
+                And be one traveler, long I stood<br>
+                And looked down one as far as I could<br>
+                To where it bent in the undergrowth;<br>
+            </P>
+            <p>
+                Then took the other, as just as fair,<br>
+                And having perhaps the better claim,<br>
+                Because it was grassy and wanted wear;<br>
+                Though as for that the passing there<br>
+                Had worn them really about the same,<br>
+            </p>
+            <p>
+                And both that morning equally lay<br>
+                In leaves no step had trodden black.<br>
+                Oh, I kept the first for another day!<br>
+                Yet knowing how way leads on to way,<br>
+                I doubted if I should ever come back.<br>
+            </p>
+            <p>
+                I shall be telling this with a sigh<br>
+                Somewhere ages and ages hence:<br>
+                Two roads diverged in a wood, and I—<br>
+                I took the one less traveled by,<br>
+                And that has made all the difference.<br>
+            </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="parseText.js"></script>
+</html>
